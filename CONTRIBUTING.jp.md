@@ -1,3 +1,5 @@
+[English Version (英語版はこちら)](CONTRIBUTING.md)
+
 # Contributing ガイドライン
 このcontribではMatlantisの活用を加速するexampleを募集します. 想定するexampleは
 - 対象の原子系をわかりやすく可視化する

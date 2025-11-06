@@ -1,3 +1,5 @@
+[日本語版はこちら (Japanese Version)](CONTRIBUTING.jp.md)
+
 # Contributing Guidelines
 This contrib is seeking examples that will accelerate the use of Matlantis. Examples include:
 - Visualizing the target atomic system in an easy-to-understand manner

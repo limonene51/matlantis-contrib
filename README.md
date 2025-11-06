@@ -1,5 +1,6 @@
-# Matlantis Contrib
+[日本語版はこちら (Japanese Version)](README.jp.md)
 
+# Matlantis Contrib
 This repository is a contrib for useful examples that are helpful when using [Matlantis](https://matlantis.com/en/). By bringing together examples created by Matlantis users, we aim to make Matlantis easier to use.
 
 ## Contributing
