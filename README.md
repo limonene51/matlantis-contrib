@@ -1,37 +1,36 @@
 # Matlantis Contrib
 
-このリポジトリは[Matlantis](https://matlantis.com/ja/)を使う際に役に立つ便利なexampleを募集するcontribです. Matlantisのユーザーが作成したexampleを持ち寄ることで, より快適にMatlantisが利用可能となることを目指しています.
+This repository is a contrib for useful examples that are helpful when using [Matlantis](https://matlantis.com/en/). By bringing together examples created by Matlantis users, we aim to make Matlantis easier to use.
 
 ## Contributing
-このcontribへexampleを追加したい場合は[contributingガイドライン](CONTRIBUTING.md)に従ってPull Requestを作成してください.
+If you would like to add an example to this contrib, please create a pull request following the [contributing guidelines](CONTRIBUTING.md).
 
-## どのようなexampleを募集するか
-Matlantisの活用を加速するexampleとして例えば次のようなものが考えられます.
-- 対象の原子系をわかりやすく可視化する
-- Matlantisに実装されているfeatureの実行結果の集約, 分析を行う
-- Matlantisに実装されているfeatureへの入力例を作る
+## What kinds of examples are we looking for?
+Examples that will accelerate the use of Matlantis include:
+- Visualizing the target atomic system in an easy-to-understand manner
+- Aggregating and analyzing the execution results of features implemented in Matlantis
+- Creating input examples for features implemented in Matlantis
 
-上記のような内容のexampleの追加を歓迎します. また, これらはあくまでも一例であり, この他の内容についても便利なexampleを作ることができたら是非このcontribへの追加をお願いします.
+We welcome examples of the above content. Please note that these are just a few examples. If you create useful examples for other content, please add them to this contrib.
 
 ## How to use examples
-募集したexampleは[matlantis_contrib_examples](matlantis_contrib_examples)に追加されていき, matlantis_contrib_examples内の各ディレクトリが1つのexampleに対応しています. 各exampleのディレクトリ構造は次のようになっています.
+The submitted examples are added to [matlantis_contrib_examples] (matlantis_contrib_examples), and each directory in matlantis_contrib_examples corresponds to one example. The directory structure for each example is as follows:
 
 ```
 matlantis_contrib_examples
 └── a_great_example(directory)
-    ├── a_great_example.ipynb
-    ├── input(directory)
-    |   ├── hoge.xyz
-    |   └── fuga.xyz
-    └── output(directory)
-        └── piyo.xyz
+├── a_great_example.ipynb
+├── input(directory)
+| ├── hoge.xyz
+| └── fuga.xyz
+└── output(directory)
+└── piyo.xyz
 ```
-- `a_great_example`というexampleを実行するには`a_great_example`というディレクトリをzipファイルに圧縮してMatlantisにアップロードし, ファイルツリーのペインで右クリックから`Extract Archive`で解凍し、`a_great_example.ipynb`を実行します.
-- exampleに入力ファイルが必要な場合は`a_great_example/input`に入力ファイルを置いてください.
-- exampleが実行結果をファイルを出力する場合は `a_great_example/output`に結果が出力されます.
+- To run the example `a_great_example`, compress the directory `a_great_example` into a zip file and upload it to Matlantis. Right-click on the file tree pane and select `Extract Archive` to unzip it, then run `a_great_example.ipynb`.
+- If an example requires an input file, place the input file in `a_great_example/input`.
+- If the example outputs the execution results to a file, the results will be output to `a_great_example/output`.
 
+## Notes
 
-## 注意事項
-
-* このcontribで提供するexampleの動作保証はいたしません。Matlantisの更新にともない動作しなくなる可能性があります。
-* 今後、このcontribの内容を予告なく修正・削除することがあります。
+* We do not guarantee the operation of the examples provided in this contrib. They may stop working with updates to Matlantis.
+* The contents of this contrib may be modified or deleted in the future without notice.
