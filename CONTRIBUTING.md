@@ -19,7 +19,7 @@ These are just a few examples, and we welcome examples on a wide range of topics
 When submitting a pull request to add an example, please make sure that the following conditions are met. Reviewers will primarily review the project to ensure that these conditions are met.
 - The DCO must be signed.
 - No errors occur when running. Run the notebook's cells in the Matlantis environment from top to bottom until no errors occur.
-- Include a copyright notice. To clearly indicate that the program creator owns the copyright, add the following statement to the top of the notebook in Markdown format: ``Copyright <YOUR NAME> as contributors to Matlantis contrib project```. Replace `<YOUR NAME>` with the name of the program creator. Refer to the contents of [hello_world](matlantis_contrib_examples/hello_world/hello_world.ipynb).
+- Include a copyright notice. To clearly indicate that the program creator owns the copyright, add the following statement to the top of the notebook in Markdown format: ```Copyright <YOUR NAME> as contributors to Matlantis contrib project```. Replace `<YOUR NAME>` with the name of the program creator. Refer to the contents of [hello_world](matlantis_contrib_examples/hello_world/hello_world.ipynb).
 - Do not include confidential information or authentication information (API keys or passwords).
 
 ## Guidelines
