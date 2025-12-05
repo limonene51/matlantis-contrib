@@ -6,7 +6,7 @@
 - Matlantisに実装されているfeatureの実行結果の集約, 分析を行う
 - Matlantisに実装されているfeatureへの入力例を作る
 
-などです. これらは一例であり, この他のトピックについても幅広くexmapleを募集します. また, 原子シミュレーションを行っていく中で役に立つ内容であればnotebook上で必ずしもMatlantisをimportする必要はありません.
+などです. これらは一例であり, この他のトピックについても幅広くexampleを募集します. また, 原子シミュレーションを行っていく中で役に立つ内容であればnotebook上で必ずしもMatlantisをimportする必要はありません.
 
 ## contributeする前に
 - このリポジトリのプログラムは[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)ライセンスの下で管理されます. このプロジェクトに参加するには[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)の内容を確認し, これに同意して頂くことが必要となります.
